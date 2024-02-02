@@ -1,0 +1,30 @@
+form.woocommerce-cart-form.processing,
+.cart-collaterals.processing{
+    background: #fff;
+    opacity: 0.6;
+}
+
+.remove-all {
+    margin-top: 0;
+    width: auto;
+    height: 2.875rem;
+    margin-left: auto;
+    background-color: transparent;
+    border: 1px solid var(--color-main-border);
+}
+
+.remove-all:hover {
+    color: var(--color-button-active-color) !important;
+    background-color: var(--color-button-active);
+    border-color: transparent;
+}
+
+.button[name=update_cart] {
+    display: none;
+}
+
+@media(max-width: 767px){
+    a.remove-all {
+        margin-top: 15px;
+    }
+}

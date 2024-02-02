@@ -1,0 +1,112 @@
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea, select {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  font-family: getFont(form-font);
+  font-size: getFont(form-font-size);
+  font-weight: getFont(form-font-weight);
+  letter-spacing: getFont(form-font-spacing);
+  border: 1px solid getColor(form-border);
+  background-color: getColor(form-background);
+  padding: 0 .9375rem;
+  transition: background-color .2s $bezier-second, border-color .2s $bezier-second;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+  &::placeholder {
+    color: getColor(form-placeholder);
+  }
+  &:active {
+    border-color: getColor(form-active-border);
+    background-color: getColor(form-active-background);
+  }
+  &:focus {
+    border-color: getColor(form-active-border);
+    background-color: getColor(form-active-background);
+  }
+  &.small {
+    height: 2.25rem;
+  }
+  &.medium {
+    height: 2.875rem;
+  }
+  &.large {
+    height: 3.25rem;
+  }
+}
+select {
+  background: url(../img/chevron-down.svg) calc(100% - 15px) no-repeat;
+  background-size: 12px;
+}
+textarea {
+  height: auto;
+  padding: .9375rem;
+}
+// Button Settings
+button, input[type="submit"], input[type=button], input[type=reset], input[type=submit], .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  font-family: getFont(primary);
+  font-size: getFont(button-font-size);
+  font-weight: getFont(button-font-weight);
+  letter-spacing: getFont(button-font-spacing);
+  text-transform: getFont(button-font-transform);
+  transition: color .2s $bezier-second, background-color .2s $bezier-second, border-color .2s $bezier-second, transform .35s $bezier-second;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  &.small {
+    height: 2.25rem;
+  }
+  &.medium {
+    height: 2.875rem;
+    &.wide {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+  &.large {
+    height: 3.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  &.light {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid getColor(button-border-color);
+    &.alt {
+      border-color: getColor(main-border);
+    }
+  }
+  &.dark {
+    color: #fff;
+    background-color: #000;
+  }
+  &.primary {
+    color: getColor(button-primary-color);
+    background-color: getColor(button-primary);
+    border-color: transparent;
+  }
+  &:hover {
+    color: getColor(button-active-color);
+    background-color: getColor(button-active);
+    border-color: transparent!important;
+  }
+}
+.button-text {
+  display: inline-flex;
+  align-items: center;
+  font-size: .75rem;
+  font-weight: 600;
+  color: currentColor;
+  @include transition(all .25s $bezier);
+  i {
+    font-size: 90%;
+    margin-left: .375rem;
+  }
+  &:hover {
+    color: getColor(primary);
+  }
+}

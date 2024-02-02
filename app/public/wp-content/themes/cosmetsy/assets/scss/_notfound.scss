@@ -1,0 +1,34 @@
+.page-not-found {
+  position: relative;
+  padding: 2.5rem 0;
+  @include min-break(lg) {
+    padding: 12.5rem 0;
+  }
+  &--inner {
+    max-width: 35.625rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    .entry-title {
+      font-size: 5.625rem;
+      line-height: 1.2;
+      @include min-break(lg) {
+        font-size: 22.5rem;
+        line-height: 1.1;
+      }
+    }
+    .entry-subtitle {
+      font-size: 1.5rem;
+      @include min-break(lg) {
+        font-size: 3rem;
+      }
+    }
+    .entry-description {
+      font-size: .875rem;
+      p {
+        opacity: .6;
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+$themeRoot: (
+  color: (
+    'main-background': #fff,
+    'main-text': #000,
+    'main-border': #dee2e6,
+    'contrast-50': #f8f9fa,
+    'contrast-100': #f8f9fa,
+    'contrast-200': #e9ecef,
+    'contrast-300': #dee2e6,
+    'contrast-400': #ced4da,
+    'contrast-500': #adb5bd,
+    'contrast-600': #6c757d,
+    'contrast-700': #495057,
+    'contrast-800': #343a40,
+    'contrast-900': #212529,
+    'primary': #ef4626,
+    'topbar-background': #000,
+    'topbar-color': #fff,
+    'topbar-submenu': #fff,
+    'topbar-submenu-text': #000,
+    'topbar-submenu-border': #eee,
+    'header-background': #fff,
+    'header-color': #000,
+    'header-active': #ef4626,
+    'mobile-header-background': #fff,
+    'mobile-header-color': #000,
+    'mobile-header-border': #eee,
+    'primary-menu': #000,
+    'primary-menu-active': #ef4626,
+    'primary-submenu-background': #fff,
+    'primary-submenu': #000,
+    'primary-submenu-active': #ef4626,
+    'navigation-background': #fff,
+    'navigation-border': #e5e5e5,
+    'notification-bar': #fc745d,
+    'notification-text': #fff,
+    'form-border': #ddd,
+    'form-background': #fff,
+    'form-active-border': #000,
+    'form-active-background': #fff,
+    'form-placeholder': #999,
+    'button-primary': #ef4626,
+    'button-primary-color': #fff,
+    'button-border-color': #000,
+    'button-active': #000,
+    'button-active-color': #fff,
+    'site-overlay': rgba(0,0,0,0.3),
+    'offcanvas-background': #fff,
+    'offcanvas-color': #111,
+    'offcanvas-border': #eee,
+    'category-color': #ef4626,
+    'badge-onsale': #000,
+    'footer-widget-background': #fff,
+    'footer-widget-border': #eee,
+    'footer-widget-color': #232323,
+    'footer-widget-link': #000,
+    'subfooter-background': #fff,
+    'subfooter-border': #eee,
+    'subfooter-color': #111,
+    'newsletter-background': #fff,
+    'newsletter-border': #eee,
+    'newsletter-color': #000
+  ),
+  font: (
+    'primary': ('DM Sans', sans-serif),
+    'secondary': ('Crimson Text', serif),
+    'menu-font': ('DM Sans', sans-serif),
+    'form-font': ('DM Sans', sans-serif),
+    'button-font': ('DM Sans', sans-serif),
+    'topbar-font-size': 12px,
+    'menu-font-size': 14px,
+    'menu-font-weight': 400,
+    'menu-font-spacing': 0,
+    'sub-menu-font-size': 13px,
+    'sub-menu-font-weight': 400,
+    'sub-menu-font-spacing': 0,
+    'mobile-menu-font-size': 14px,
+    'mobile-menu-font-weight': 400,
+    'mobile-menu-font-spacing': 0,
+    'logo-font-size': 24px,
+    'form-font-size': 13px,
+    'form-font-weight': 400,
+    'form-font-spacing': 0,
+    'button-font-size': 11px,
+    'button-font-weight': 700,
+    'button-font-transform': uppercase,
+    'button-font-spacing': 1px,
+    'product-title-font': ('DM Sans', sans-serif),
+    'product-title-font-size': 14px,
+    'product-title-font-weight': 600,
+    'category-font-size': 10px,
+    'category-font-weight': 500,
+    'category-font-spacing': 1px,
+    'category-font-transform': uppercase
+
+  ),
+  size: (
+    'topbar-height': 38px,
+    'header-height': 120px,
+    'navigation-height': 50px,
+    'mobile-header-height': 56px,
+    'desktop-logo-height': 40px,
+    'mobile-logo-height': 32px
+  )
+);
+
+// Social Media Color
+$facebook: #3b5998;
+$forumbee: #86ac2f;
+$instagram: #fd1d1d;
+$instagram-gradient: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+$pinterest: #e60023;
+$spotify: #1db954;
+$twitch: #9146ff;
+$whatsapp: #25d366;
+$github: #000;
+$odnoklassniki: #ed812b;
+$amazon: #ff9900;
+$dropbox: #007ee5;
+$snapchat: #fffc00;
+$foursquare: #f94877;
+$lastfm: #d51007;
+$skype: #00aff0;
+$stackoverflow: #f48024;
+$twitter: #1da1f2;
+$xing: #cfdc00;
+$tripadvisor: #00af87;
+$vimeo: #1ab7ea;
+$codeopen: #000;
+$dribbble: #ea4c89;
+$google: #ea4335;
+$linkedin: #0077b5;
+$slack: #3eb991;
+$stumbleupon: #eb4924;
+$vine: #00b488;
+$yelp: #af0606;
+$pocket: #ef4056;
+$quora: #a82400;
+$behance: #1769ff;
+$delicious: #3399ff;
+$paypal: #003087;
+$soundcloud: #ff8800;
+$tumblr: #35465c;
+$vkontakte: #45668e;
+$youtube: #ff0000;
+$fivepx: #34bf49;
+$deviantart: #05cc47;
+$codiepie: #000;

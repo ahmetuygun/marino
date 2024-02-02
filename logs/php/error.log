@@ -1,0 +1,275 @@
+[02-Feb-2024 13:05:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Envato Market')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Envato Market')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Contact Form 7')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Contact Form 7')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Cosmetsy Core')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Cosmetsy Core')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Elementor')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Elementor')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Kirki')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Kirki')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:11 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:12 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'MailChimp Subsc...')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('MailChimp Subsc...')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:14 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Meta Box')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Meta Box')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:16 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'WooCommerce')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('WooCommerce')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:21 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/kirki/kirki-packages/util/src/Helper.php on line 288
+[02-Feb-2024 13:05:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'WooCommerce Wis...')
+#1 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('WooCommerce Wis...')
+#2 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/themes/cosmetsy/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /Users/ahmetuygun/Local Sites/marino/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/themes.php(10): require_once('/Users/ahmetuyg...')
+#12 {main}
+  thrown in /Users/ahmetuygun/Local Sites/marino/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[02-Feb-2024 13:08:19 UTC] PHP Warning:  Attempt to read property "post_count" on null in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-price-filter.php on line 80
+[02-Feb-2024 13:08:19 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/woocommerce/includes/class-wc-query.php on line 873
+[02-Feb-2024 13:08:19 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/woocommerce/includes/class-wc-query.php on line 885
+[02-Feb-2024 13:08:19 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/woocommerce/includes/class-wc-query.php on line 873
+[02-Feb-2024 13:08:19 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/woocommerce/includes/class-wc-query.php on line 885
+[02-Feb-2024 13:28:41 UTC] PHP Warning:  Undefined array key "git-version" in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/versionpress/src/Utils/SystemInfo.php on line 102
+[02-Feb-2024 13:28:41 UTC] PHP Warning:  Undefined array key "git-version" in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/versionpress/src/Utils/SystemInfo.php on line 102
+[02-Feb-2024 13:28:41 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/versionpress/vendor/michelf/php-markdown/Michelf/Markdown.php on line 948
+[02-Feb-2024 13:29:40 UTC] PHP Warning:  Undefined array key "git-version" in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/versionpress/src/Utils/SystemInfo.php on line 102
+[02-Feb-2024 13:29:40 UTC] PHP Warning:  Undefined array key "git-version" in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/versionpress/src/Utils/SystemInfo.php on line 102
+[02-Feb-2024 13:29:40 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /Users/ahmetuygun/Local Sites/marino/app/public/wp-content/plugins/versionpress/vendor/michelf/php-markdown/Michelf/Markdown.php on line 948

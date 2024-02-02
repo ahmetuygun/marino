@@ -1,0 +1,122 @@
+/*------------------------------------------------------------------
+[Table of contents]
+  01. Theme Settings
+  02. Mixins
+  03. Bootstrap
+  04. Helper
+  05. Icon Font
+  06. Form
+  07. Perfect Scrollbar
+  08. Slick Slider
+  09. Offcanvas
+  10. Header
+  11. WooCommerce
+  12. Modules
+  13. Blog
+  14. Sidebar
+  15. Footer
+  16. 404
+  17. Magnific Popup
+-------------------------------------------------------------------*/
+
+/*------------------------------------ 
+    01 - Theme Settings 
+------------------------------------*/
+@import '_theme';
+
+/*------------------------------------ 
+    02 - Mixins 
+------------------------------------*/
+@import '_mixins';
+
+/*------------------------------------ 
+    03 - Bootstrap 
+------------------------------------*/
+/* @import '../../node_modules/bootstrap/scss/bootstrap'; */
+
+// Configuration
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+@import '../../node_modules/bootstrap/scss/utilities';
+
+// Layout & components
+@import '../../node_modules/bootstrap/scss/root';
+@import '../../node_modules/bootstrap/scss/reboot';
+@import '../../node_modules/bootstrap/scss/type';
+@import '../../node_modules/bootstrap/scss/images';
+@import '../../node_modules/bootstrap/scss/grid';
+@import '../../node_modules/bootstrap/scss/tables';
+@import '../../node_modules/bootstrap/scss/forms';
+@import '../../node_modules/bootstrap/scss/buttons';
+@import '../../node_modules/bootstrap/scss/pagination';
+
+/*------------------------------------ 
+    04 - Helper 
+------------------------------------*/
+@import '_helper';
+
+/*------------------------------------ 
+    05 - Icon Font 
+------------------------------------*/
+@import '_iconfont';
+
+/*------------------------------------ 
+    06 - Form 
+------------------------------------*/
+@import '_form';
+
+/*------------------------------------ 
+    07 - Perfect Scrollbar 
+------------------------------------*/
+@import '_perfect_scrollbar';
+
+/*------------------------------------ 
+    08 - Slick Slider
+------------------------------------*/
+@import '_slick';
+
+/*------------------------------------ 
+    09 - Offcanvas 
+------------------------------------*/
+@import '_offcanvas';
+
+/*------------------------------------ 
+    10 - Header 
+------------------------------------*/
+@import '_header';
+
+/*------------------------------------ 
+    11 - WooCommerce 
+------------------------------------*/
+@import '_woocommerce';
+
+/*------------------------------------ 
+    12 - Modules 
+------------------------------------*/
+@import '_modules';
+
+/*------------------------------------ 
+    13 - Blog 
+------------------------------------*/
+@import '_blog';
+
+/*------------------------------------ 
+    14 - Sidebar 
+------------------------------------*/
+@import '_sidebar';
+
+/*------------------------------------ 
+    15 - Footer 
+------------------------------------*/
+@import '_footer';
+
+/*------------------------------------ 
+    16 - 404 
+------------------------------------*/
+@import '_notfound';
+
+/*------------------------------------ 
+    17 - Magnific Popup 
+------------------------------------*/
+@import '_magnific';

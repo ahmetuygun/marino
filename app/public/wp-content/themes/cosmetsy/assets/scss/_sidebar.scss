@@ -1,0 +1,88 @@
+.widget {
+  position: relative;
+  margin-bottom: 1.25rem;
+  @include min-break(lg) {
+    margin-bottom: 3.125rem;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .widget-title {
+    font-family: getFont(primaru);
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid getColor(main-border);
+    @include min-break(lg) {
+      margin-bottom: 1.875rem;
+    }
+  }
+  &.widget_post_listing {
+    .blog-posts {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        .post {
+          display: flex;
+          .entry-media {
+            flex: 0 0 3.75rem;
+            max-width: 3.75rem;
+            margin-right: 1.25rem;
+          }
+          .entry-title {
+            font-size: 1rem;
+            margin-bottom: 0;
+            a {
+              color: currentColor;
+              @include transition(all .25s $bezier);
+              &:hover {
+                color: getColor(primary);
+              }
+            }
+          }
+        }
+        & + li {
+          margin-top: 1.25rem;
+        }
+      }
+    }
+  }
+  &.widget_text {
+    p {
+      line-height: 1.6;
+      @include min-break(lg) {
+        line-height: 1.8;
+      }
+    }
+  }
+  &.widget_newsletter {
+    form {
+      p {
+        font-size: .875rem;
+      }
+      .form-wrapper {
+        position: relative;
+        .newsletter-input {
+          padding-left: 0;
+          border-left: 0;
+          border-right: 0;
+          border-top: 0;
+          border-bottom-color: currentColor;
+          background-color: transparent;
+        }
+        button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          border: 0;
+          padding: 0;
+          color: currentColor;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

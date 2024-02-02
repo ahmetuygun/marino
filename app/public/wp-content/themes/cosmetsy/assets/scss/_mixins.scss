@@ -1,0 +1,133 @@
+// Breakpoint Sizes
+$breakpoints: (
+  xsm: 26.25rem, // breakpoint 420px
+  sm: 36rem, // breakpoint 576px
+  md: 48rem, // breakpoint 768px
+  lg: 62rem, // breakpoint 992px
+  xl: 75rem, // breakpoint 1200px
+  xxl: 87.5rem // breakpoint 1400px
+);
+
+// Min Breakpoint
+@mixin min-break($breakpoint) {
+	@if map-has-key($breakpoints , $breakpoint) {
+		$breakpoint-value: map-get(
+			$breakpoints,
+			$breakpoint
+		);
+		@media screen and (min-width: $breakpoint-value) {
+			@content;
+		}
+	} @else {
+		@warn "Invalid breakpoint: #{$breakpoint}.";
+	}
+}
+
+// Max Breakpoint
+@mixin max-break($breakpoint) {
+	@if map-has-key($breakpoints , $breakpoint) {
+		$breakpoint-value: map-get(
+			$breakpoints,
+			$breakpoint
+		);
+		@media screen and (max-width: $breakpoint-value) {
+			@content;
+		}
+	} @else {
+		@warn "Invalid breakpoint: #{$breakpoint}.";
+	}
+}
+
+// Transitions
+@mixin transition($property, $time, $effect) {
+	transition: $property $time $effect;
+}
+@mixin transition-mix($property, $time, $property2, $time2, $effect) {
+	transition: $property $time $effect, $property2 $time2 $effect;
+}
+
+$bezier: cubic-bezier(.28,.12,.22,1);
+$bezier-second: cubic-bezier(.83,.26,.19,.87);
+$bezier-third: cubic-bezier(.645,.045,.355,1);
+// Transforms
+@mixin translate-y($value) {
+	will-change: transform;
+	transform: translateY($value);
+}
+@mixin translate-x($value) {
+	will-change: transform;
+	transform: translateX($value);
+}
+
+// Root Settings
+:root {
+  @each $key, $value in map-get($themeRoot, 'font') {
+    --font-#{$key}: #{inspect($value)};
+	}
+}
+
+:root {
+	@each $key, $value in map-get($themeRoot, 'size') {
+    --size-#{$key}: #{inspect($value)};
+  }
+}
+
+:root {
+  @each $key, $value in map-get($themeRoot, 'color') {
+    --color-#{$key}: #{$value};
+  }
+}
+
+@function getColor($color-name) {
+  @return var(--color-#{$color-name});
+}
+
+@function getFont($font-name) {
+  @return var(--font-#{$font-name});
+}
+
+@function getSize($size-name) {
+  @return var(--size-#{$size-name});
+}
+
+// Social Media RGBA Color
+@mixin socialRgba($value) {
+	background-color: rgba($value, 0.1);
+}
+
+// Margin and Padding Settings
+$spaceamounts: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 110, 120, 130 ,140, 150, 160, 165, 170, 180, 190, 200, 250);
+$sides: (top, bottom);
+
+@each $space in $spaceamounts {
+	@each $side in $sides {
+		.m#{str-slice($side, 0, 1)}-#{$space} {
+			margin-#{$side}: #{$space}px !important;
+		}
+
+		.p#{str-slice($side, 0, 1)}-#{$space} {
+			padding-#{$side}: #{$space}px !important;
+		}
+		@media (min-width: 62rem) {
+			.d-m#{str-slice($side, 0, 1)}-#{$space} {
+				margin-#{$side}: #{$space}px !important;
+			}
+	
+			.d-p#{str-slice($side, 0, 1)}-#{$space} {
+				padding-#{$side}: #{$space}px !important;
+			}
+		}
+	}
+}
+
+// Font Size Settings
+@for $i from 10 through 80 {
+	.f-size-#{$i} {
+		font-size: #{$i}px;
+	}
+	@media (min-width: 62rem) {
+		.df-size-#{$i} {
+			font-size: #{$i}px;
+		}
+	}
+}
